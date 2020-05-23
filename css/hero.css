@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	font-family: helvetica, arial, san-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+header{
+	background-color: red;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+/*font from font.google.com, also see index file */
+h1,h2{
+	font-family: 'Luckiest Guy', cursive;
+}
+
+header h1{
+	color: yellow;
+	font-size: 50px;
+
+}
+
+header img{
+	border-radius: 150px;
+    width: 300px;
+    border: 15px solid purple
+}    
+
+main{
+	max-width: 800px;
+	/*text is left aligned but centered on the page*/
+	margin: 0 auto;
+	/*top and bottom padding of 0, left and right of 20px*/
+	padding: 0 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 30px;
+	color: #e70c19;
+	/*top 40, left and right 0, below 10*/
+	margin: 40px 0 10px;
+}
+
+a{
+	color: green;
+}
+/*a hover sudo class*/
+a:hover{
+	color: white;
+	background-color: #483a94;
+}
+
+footer{
+	background-color: red;
+	text-align: center;
+	color: white;
+	padding: 30px;
+}
+
+footer p{
+	margin: 0;
+}
+/*all paragraph with a class of caption */
+p.caption{
+	color: #FF33D7;
+	font-style:  italic;
+	font-weight: bold;
+	margin: 0;
+}
