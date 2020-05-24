@@ -3,6 +3,7 @@ body{
 	font-family: helvetica, arial, san-serif;
 	font-size: 20px;
 	line-height: 30px;
+	background-color: #F5C607
 }
 
 header{
@@ -73,3 +74,14 @@ p.caption{
 	font-weight: bold;
 	margin: 0;
 }
+/*anchor element for the footer*/
+footer a{
+	color: white;
+}
+
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
