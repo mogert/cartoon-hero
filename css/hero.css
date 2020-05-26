@@ -69,7 +69,7 @@ footer p{
 }
 /*all paragraph with a class of caption */
 p.caption{
-	color: #e70c19;
+	color: green;
 	font-style:  italic;
 	font-weight: bold;
 	margin: 0;
