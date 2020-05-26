@@ -27,7 +27,7 @@ header img{
 	border-radius: 150px;
     width: 300px;
     border: 15px solid purple
-}    
+}
 
 main{
 	max-width: 800px;
@@ -69,7 +69,7 @@ footer p{
 }
 /*all paragraph with a class of caption */
 p.caption{
-	color: #FF33D7;
+	color: #e70c19;
 	font-style:  italic;
 	font-weight: bold;
 	margin: 0;
@@ -84,4 +84,3 @@ footer a:hover{
 	opacity: .5;
 	background-color: transparent;
 }
-
